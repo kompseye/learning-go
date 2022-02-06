@@ -8,6 +8,7 @@ Install Go. See my instructions [here](https://github.com/kompseye/mac-setup#go)
 # References
 * [gobyexample.com](https://gobyexample.com/)
 * [golang.org](https://golang.org/)
+* https://docs.docker.com/language/golang/build-images/
 
 
 
