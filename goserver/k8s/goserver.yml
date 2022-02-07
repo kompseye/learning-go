@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: goserver
+spec:
+  template:
+    metadata:
+      name: goserver-pod
+    spec:
+      containers:
+      - name: goserver
+        image: goserver
+        imagePullPolicy: Never
+      restartPolicy: Never
